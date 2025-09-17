@@ -18,14 +18,12 @@ Deux méthodes d'authentification sont supportées. Passez les identifiants via 
 
 1) En utilisant une clé API (v3):
 ```
-flutter run \
-  --dart-define=TMDB_API_KEY=VOTRE_CLE_API_V3
+flutter run --dart-define=TMDB_API_KEY=VOTRE_CLE_API_V3
 ```
 
 2) En utilisant un Bearer token (v4):
 ```
-flutter run \
-  --dart-define=TMDB_BEARER=VOTRE_BEARER_TOKEN_V4
+flutter run --dart-define=TMDB_BEARER=VOTRE_BEARER_TOKEN_V4
 ```
 
 Vous pouvez aussi les utiliser avec `flutter build` de la même manière.
